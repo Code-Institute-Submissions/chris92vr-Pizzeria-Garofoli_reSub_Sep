@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />    
+    <title>Pizzeria Garofoli</title>
+</head>
+<body>
+     <header>    
+    <div class="row">
+        <div class="col-md-4 logo">
+            <a href="index.html"><h1 class="text-center" id="pizza-logo">Pizzeria Garofoli
+            </h1></a>
+            </div>
+        <div class="col-md-4 logo2">
+           <img id="img-hero" src="https://img.icons8.com/wired/64/000000/restaurant.png" />
+        </div>
+        <div class="col-md-4 logo1">  
+    <nav class="navbar navbar-expand-lg navbar-expand-sm navbar-expand-md">
+        <div class="navbar-nav">
+        <a class="nav-item nav-link active home-nav" id="home-nav" href="index.html"><b>Home</b></a>
+        <a class="nav-item nav-link gal-nav" id="gal-nav" href="gallery.html"><b>Gallery</b></a>
+        <a class="nav-item nav-link res-nav" id="res-nav" href="reservation.html"><b>Make a reservation!</b></a>
+        </div>
+    </nav>
+    </div>
+    </div>  
+    </header>
+      <!----               form-->
+     <div id="form-section">
+     <section>
+  
+    <h3 id="descr-res"><b> We are open every day , from 16 till 22.30</b></h3> 
+        <form class="reservation-form">
+    <div class="form-row ">
+    <div class="form-group col-md-6">
+      <label class="name-form" for="inputName">Name:</label>
+      <input type="text" class="form-control" id="InputName" required>
+    </div>
+    <div class="form-group col-md-6">
+      <label class="name-form" for="inputPhoneNumber">Phone number:</label>
+      <input type="text" class="form-control" id="inputPhoneNumber" required>
+    </div>
+    </div>
+    <div class="form-group">
+    <label class="name-form" for="inputAddress" required>Email address:</label>
+    <input type="email" class="form-control" id="inputAddress" placeholder="name@example.com">
+    </div>
+    <div class="form-row ">
+    <div class="form-group col col-6">
+        <label class="name-form" for="inputDay">Day:</label>
+        <input type="date" class="form-control" id="inputDay" required>
+        </div>
+    <div class="form-group col col-6">
+      <label class="name-form" for="inputTime">Time:</label>
+      <input type="time" class="form-control" id="inputTime" required>
+    </div>
+    <div class="form-group col col-6">
+      <label class="name-form" for="inputAdult">Adult:</label>
+      <select id="inputAdult" class="form-control" required>
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>5+</option>
+      </select>
+    </div>
+    <div class="form-group col col-6">
+       <label class="name-form" for="inputChildren">Children:</label>
+      <select id="inputChildren" class="form-control" required>
+        <option selected>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>5+</option>
+      </select>
+    </div>
+    </div>
+    <div class="form-row">
+   <div class="form-group col ">
+      <label class="name-form" for="InputNote">Notes and allergy:</label>
+      <input type="text-area" class="form-control" id="InputNote" >
+    </div>
+    
+   </div>
+   <div class="form-row">
+   <button type="submit" class="btn btn-danger btnRes">Reserve a table</button>
+    </div>
+   </form>
+     </section>
+     </div>
+    <footer class="contain-fluid">
+        <div id="footer-detail" class="row">
+           <div class="col">
+                <h4>Address</h4>
+                <p class="inline-block p-footer" >
+                dam square 32, Amsterdam
+                </p> </div>
+            <div class="col">
+                <h4>Social</h4>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item ">
+                        <a href="https://www.facebook.com/" target="_blank"><i id="left-footer" class="i-footer fa fa-facebook-square">Facebook</i>
+                        </a> 
+                    </li>                                                                   
+                    <li class="list-inline-item ">
+                        <a href="https://www.instagram.com/" target="_blank"><i id="center-footer" class="i-footer fa fa-instagram">Instagram</i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item ">
+                        <a href="https://www.twitter.com/" target="_blank"><i id="right-footer" class="i-footer fa fa-twitter-square" >Twitter</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Contact us</h4>
+                <p class="inline-block p-footer">
+                 phone number: +310685851910<br>
+                 email: pizzeriagarofoli@gmail.com
+                </p>
+            </div>
+            </div>
+    </footer>
+</body>
+</html>
