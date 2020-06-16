@@ -177,7 +177,7 @@ section h2{
     border-top-right-radius: 30%;
     box-shadow: 5px 5px 15px 4px #999;
    width: 100%;
-    filter: grayscale(76%);
+   
 }
 p {
 font-family: Lato, san-serif;
