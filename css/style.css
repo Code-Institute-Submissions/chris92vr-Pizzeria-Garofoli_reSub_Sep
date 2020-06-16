@@ -99,7 +99,7 @@ header{
     background-size: cover;
 }
 
-section h2{
+div h2{
     margin-bottom:50px;
     font-family: Tangerine, cursive;
     font-size: 69px;
@@ -134,7 +134,8 @@ section h2{
 }
 
 
-/* Style the button and place it in the middle of the container/image */
+/* Style the button and place it in the the container*/
+
 .container #btn-up {
   position: absolute;
   top: 90%;
@@ -154,22 +155,23 @@ section h2{
   -ms-transform: translate(-50%, -50%);
   font-size: 16px;
   padding: 12px 24px;
-  
-
 }
+
 #btn-up{
     position: relative;
     top:300px;
     left:310px;
      z-index: 1;
-
 }
+
 .container{
     margin-top:40px;
 }
+
 .container-fluid{
     margin-top: 30px;
 }
+
 .pizza1{
     background: url("../img/pizza1.jpg");
     background-repeat: no-repeat;
@@ -177,8 +179,8 @@ section h2{
     border-top-right-radius: 30%;
     box-shadow: 5px 5px 15px 4px #999;
    width: 100%;
-   
 }
+
 p {
 font-family: Lato, san-serif;
 letter-spacing: 3px;
@@ -196,7 +198,6 @@ letter-spacing: 3px;
   position: relative;
 }
 
-/* Bottom right text */
 .text-block {
   position: absolute;
   top: 20px;
@@ -210,6 +211,7 @@ letter-spacing: 3px;
  Font-size: calc(0.4rem + 3vmin);
    border-radius: 20px;
 }
+
 .text-block1 {
   position: absolute;
   bottom: 20px;
@@ -253,6 +255,7 @@ letter-spacing: 3px;
  Font-size: calc(0.4rem + 3vmin);
    border-radius: 20px;
 }
+
 .container #btn-family {
   position: absolute;
   top: 30%;
@@ -261,9 +264,9 @@ letter-spacing: 3px;
   -ms-transform: translate(-50%, -50%);
   font-size: 16px;
   padding: 12px 24px;
-  
-
 }
+/*--------------------------------animation icon in the middle of the header*/
+
 @keyframes pizza-zoom {
     from{
         transform: scale(0.5);
@@ -275,6 +278,7 @@ letter-spacing: 3px;
 
 
 /*---------------------------------footer*/
+
 #footer-detail{
     background-color: rgb(70,60,60,0.6);
     color: white;
@@ -308,11 +312,12 @@ letter-spacing: 3px;
     font-weight: bold;
 
 }
+
 #center-footer{
     color:#F4F5F0;
     font-weight: bold;
-
 }
+
 #right-footer{
 color: rgb(255,33,42);
 font-weight: bold;
@@ -328,6 +333,7 @@ input[type=text], input[type=email] {
   border: 1px solid black;
   border-radius: 4px;
 }
+
 label{
     margin-left:10px;
 }
@@ -339,6 +345,7 @@ input[type=time],input[type=date], select, #InputNote, #inputChildren, #inputAdu
   margin-left:10px;
     border: 1px solid black;
 }
+
 input[type=time]{
     width:45%;
     margin-left:5px;
@@ -349,9 +356,11 @@ input[type=date]{
     margin-left:5px;
       border: 1px solid black;
 }
+
 select{
     max-width:30%;
 }
+
 #InputNote{
     max-width:75%;
     margin-left:5px;
@@ -367,21 +376,21 @@ select{
     text-shadow:   2px  2px 4px #777,-2px -2px 4px #777;
     padding-top:40px;
     padding-bottom:30px;
-    
-
 }
+
 #form-section{
     background: url("../img/back-res.jpg");
     background-repeat: no-repeat no-repeat;
     background-size: cover;
     padding-bottom: 170px;
-
 }
+
 .btnRes{
     position: relative;
     left: 10px;
     margin-top: 20px;
 }
+
 .name-form{
     margin-top: 20px;
 }
@@ -394,14 +403,10 @@ select{
      max-width: 450px;
      box-shadow: 5px 5px 15px 4px #999;
      padding-bottom: 70px;
-     
-}
-
-
-
-
+}  
 
 /*---------------------------------gallery*/
+
 #gallery{
     padding-top:30px;
     padding-left: 80px;
@@ -419,20 +424,20 @@ select{
 }
 
 /*--------------hover*/
+
 .list-inline-item a:hover {
     text-shadow:   2px  2px 4px whitesmoke,
                 -2px -2px 4px whitesmoke;
     text-decoration: none;
-
 }
+
 header a:hover{
     color:slategray;
     text-shadow:   2px  2px 4px whitesmoke,
                 -2px -2px 4px whitesmoke;
     text-decoration: none;
-
-
 }
+
 .img-gallery:hover{
     border-radius: 15%;
     box-shadow: 5px 5px 15px 4px whitesmoke;
@@ -442,8 +447,8 @@ header a:hover{
 input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type=time]:hover{
     border: 1px solid orange;
   border-radius: 3px;
-
 }
+
 #inputAdult:hover, #inputChildren:hover, #InputNote:hover{
     border: 1px solid orange;
   border-radius: 3px;
@@ -454,15 +459,14 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
     border-color:orange;
     color:white;
 }
-/*         ---------media screen header*/
 
+/*         ---------media screen header*/
 
 
 @media screen and (max-width: 1155px) {
     .logo h1{
         position: relative;
         right:-3px;
-        
     }
   
   
@@ -474,19 +478,15 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
   -ms-transform: translate(-50%, -50%);
   font-size: 16px;
   padding: 12px 24px;
-  
-
 }
+
 .navbar-nav #gal-nav {
  
   left: 40%;
   Font-size: calc(0.7rem + 5vmin);
- 
-  
 }
 
 .navbar-nav #home-nav {
- 
   top: 400%;
   left: 12%;
   Font-size: calc(0.7rem + 5vmin);
@@ -495,7 +495,6 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
 .navbar-nav #res-nav {
       top: 35%; 
   Font-size: calc(0.7rem + 5vmin);
-  
 }
 }
 
@@ -504,14 +503,11 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
     .logo h1{
         position: relative;
         top:10px;
-     
-        
     }
 }
 
 @media screen and (max-width: 920px) {
 .container #btn-down {
-  
   top: 20%;
   left: 14.5%;
   transform: translate(-50%, -50%);
@@ -519,86 +515,63 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
   font-size: 16px;
   padding: 12px 24px;
 }
+
 .navbar-nav #gal-nav {
-  left: 38%;
-  
-  Font-size: calc(0.6rem + 4vmin);
- 
-  
+    left: 38%;
+    Font-size: calc(0.6rem + 4vmin);
 }
 
 .navbar-nav #home-nav {
- 
-  
-  Font-size: calc(0.6rem + 4vmin);
-  
-}
-.navbar-nav #res-nav {
-      top: 100%; 
-  Font-size: calc(0.6rem + 4vmin);
-  
+    Font-size: calc(0.6rem + 4vmin);
 }
 
- 
+.navbar-nav #res-nav {
+    top: 100%; 
+    Font-size: calc(0.6rem + 4vmin);
+}
 }
 
 @media screen and (max-width: 800px) {
 .navbar-nav #gal-nav {
- 
-  
-  Font-size: calc(0.55rem + 3.5vmin);
- 
-  
+     Font-size: calc(0.55rem + 3.5vmin);
 }
 
 .navbar-nav #home-nav {
- left:  8%;
-  
-  Font-size: calc(0.55rem + 3.5vmin);
+   left:  8%;
+   Font-size: calc(0.55rem + 3.5vmin);
   
 }
 .navbar-nav #res-nav {
-      top: 130%; 
-  Font-size: calc(0.55rem + 3.5vmin);
-  
-}
+    top: 130%; 
+    Font-size: calc(0.55rem + 3.5vmin);
+  }
+  }
 
- 
-}
 @media screen and (max-width:767px) {
    
     .container #btn-up {
-  
   top: 70%;
   left: 80%;
 }
+
 .container #btn-down {
-  
   top: 40%;
   left: 20%;
-  
 }
+
 .logo #pizza-logo{
-   
   Font-size: calc(0.9rem + 7vmin); 
   top: 50%;
-  
-  
 }    
-
 }
 @media screen and (max-width: 630px) {
 .logo #pizza-logo{
-   
   Font-size: calc(0.8rem + 6vmin); 
-  
-  
 }   
 } 
+
 @media screen and (max-width: 700px) {
 .navbar-nav #gal-nav {
- 
-  
   Font-size: calc(0.45rem + 2.5vmin);
  
   
@@ -613,79 +586,59 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
 .navbar-nav #res-nav {
       top: 200%; 
   Font-size: calc(0.45rem + 2.5vmin);
-  
 }
 
- 
 }
 
 @media screen and (max-width:575px) {
 
-
-
 .text-block1{
     Font-size: calc(0.3rem + 2vmin);
 }
+
 .container #btn-down {
-  
   top: 60%;
   left: 18%;
-  
 }
+
 .logo #pizza-logo{
-   
   Font-size: calc(0.7rem + 5vmin); 
-  
-  
 }   
 }
 
-
 @media screen and (max-width:480px) {
 
-
-
 .navbar-nav #gal-nav {
- 
   left: 30%;
-  Font-size: calc(0.45rem + 2.5vmin);
- 
-  
+  Font-size: calc(0.45rem + 2.5vmin);  
 }
 
 .navbar-nav #home-nav {
- left:  -2%;
-  
+  left:  -2%;  
   Font-size: calc(0.45rem + 2.5vmin);
-  
 }
+
 .navbar-nav #res-nav {
       top: 235%; 
       left: 70%;
-  Font-size: calc(0.45rem + 2.5vmin);
-  
+       Font-size: calc(0.45rem + 2.5vmin);
 }
 
 .container #btn-down {
     top: 10%;
-  left: 25%;
-  
+    left: 25%;
 }
-.container #btn-up {
-  
-  top: 75%;
-  left: 75%;
+
+.container #btn-up {  
+    top: 75%;
+    left: 75%;
 }
+
 .logo #pizza-logo{
-   
-  left: 45%;
-  
-  
-}  
+    left: 45%;
+}
+
 .text-block1{
     max-width: 350px;
-  
-}
-    
-
+}  
 }
