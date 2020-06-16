@@ -31,8 +31,8 @@ This website is designed for people who want information about the pizzeria and 
     • CSS Validation: https://jigsaw.w3.org/css-validator/ - Identified issues with bootstrap not with my project. 
 ## Deployment
 
-    • GitHub Workspace [GitHub Workspace](https://github.com/chris92vr/Pizzeria-Garofoli)
-    • GitHub live project [GitHub Live](https://chris92vr.github.io/Pizzeria-Garofoli/)
+    • GitHub Workspace [GitHub Workspace]:(https://github.com/chris92vr/Pizzeria-Garofoli)
+    • GitHub live project [GitHub Live]:(https://chris92vr.github.io/Pizzeria-Garofoli/)
 ## Credits
 
 ### 
