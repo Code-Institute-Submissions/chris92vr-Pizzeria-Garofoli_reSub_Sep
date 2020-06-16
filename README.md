@@ -29,11 +29,13 @@ This website is designed for people who want information about the pizzeria and 
 
     • HTML Validation: https://validator.w3.org/ 
     • CSS Validation: https://jigsaw.w3.org/css-validator/ - Identified issues with bootstrap not with my project. 
-## Deployment
+## Deployment  
 
-    • GitHub Workspace [GitHub Workspace]:(https://github.com/chris92vr/Pizzeria-Garofoli)
-    • GitHub live project [GitHub Live]:(https://chris92vr.github.io/Pizzeria-Garofoli/)
+   •[GitHub Workspace](https://github.com/chris92vr/Pizzeria-Garofoli )
+
+•[GitHub live project](https://chris92vr.github.io/Pizzeria-Garofoli )
 ## Credits
+
 
 ### 
 -          Images - Images supplied by Pixbay, Upsplash, Pexels. The icon in the center of the header I have integrated it for free from http://icon8.com
