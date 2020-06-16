@@ -208,6 +208,7 @@ letter-spacing: 3px;
   max-width: 200px;
   font-family: Lato,sans-serif;
  Font-size: calc(0.4rem + 3vmin);
+   border-radius: 20px;
 }
 .text-block1 {
   position: absolute;
@@ -220,6 +221,7 @@ letter-spacing: 3px;
   width:450px; ;
   font-family: Lato,sans-serif;
    Font-size: calc(0.4rem + 3vmin);
+     border-radius: 20px;
 }
 
 .image-down{
@@ -249,6 +251,7 @@ letter-spacing: 3px;
    
   font-family: Lato,sans-serif;
  Font-size: calc(0.4rem + 3vmin);
+   border-radius: 20px;
 }
 .container #btn-family {
   position: absolute;
@@ -651,13 +654,13 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
 }
 
 .navbar-nav #home-nav {
- left:  1%;
+ left:  -2%;
   
   Font-size: calc(0.45rem + 2.5vmin);
   
 }
 .navbar-nav #res-nav {
-      top: 230%; 
+      top: 235%; 
       left: 70%;
   Font-size: calc(0.45rem + 2.5vmin);
   
@@ -679,6 +682,10 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
   
   
 }  
+.text-block1{
+    max-width: 350px;
+  
+}
     
 
 }
