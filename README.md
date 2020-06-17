@@ -4,7 +4,7 @@ Welcome to the website of Pizzeria Garofoli! You can reserve a table and see the
  
 ## UX
  
-This website is designed for people who want information about the pizzeria and in the event the possibility of being able to reserve a table. To recall the Italian tradition, the header is characterized by the colors of the Italian flag.
+This website is designed for people who want information about the pizzeria and in the event the possibility of being able to reserve a table. To recall the Italian tradition, the header and the social links in the footer are characterized by the colors of the Italian flag.
 
 ## Features
 
