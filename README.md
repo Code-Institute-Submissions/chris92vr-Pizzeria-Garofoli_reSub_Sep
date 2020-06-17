@@ -38,6 +38,6 @@ This website is designed for people who want information about the pizzeria and 
 
 
 ### 
--          Images - Images supplied by Pixbay, Upsplash, Pexels. The icon in the center of the header I have integrated it for free from http://icon8.com
+   Images - Images supplied by Pixbay, Upsplash, Pexels. The icon in the center of the header I have integrated it for free from http://icon8.com
 
--          Development time 15 days. 
+   Development time 15 days. 
