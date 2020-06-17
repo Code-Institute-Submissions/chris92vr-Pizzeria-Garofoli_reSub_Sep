@@ -144,9 +144,8 @@ div h2{
   -ms-transform: translate(-50%, -50%);
   font-size: 16px;
   padding: 12px 24px;
-  
-
 }
+
 .container #btn-down {
   position: absolute;
   top: 50%;
@@ -239,8 +238,8 @@ letter-spacing: 3px;
     box-shadow: 5px 5px 15px 4px #999;
     margin-bottom:20px;
      filter: grayscale(100%);
-
 }
+
 .text-block2{
   position: absolute;
   bottom: 25px;
@@ -250,8 +249,7 @@ letter-spacing: 3px;
   padding-left: 20px;
   padding-right: 20px;
   max-width: 75%;
-   
-  font-family: Lato,sans-serif;
+ font-family: Lato,sans-serif;
  Font-size: calc(0.4rem + 3vmin);
    border-radius: 20px;
 }
@@ -382,7 +380,7 @@ select{
     background: url("../img/back-res.jpg");
     background-repeat: no-repeat no-repeat;
     background-size: cover;
-    padding-bottom: 170px;
+    padding-bottom: 300px;
 }
 
 .btnRes{
@@ -397,12 +395,11 @@ select{
 
 .reservation-form{
      margin: 0 auto;
-    
      background-color: rgba(248, 246, 246, 0.85);
      border-radius: 5px;
      max-width: 450px;
      box-shadow: 5px 5px 15px 4px #999;
-     padding-bottom: 70px;
+     padding-bottom: 180px;
 }  
 
 /*---------------------------------gallery*/
@@ -614,12 +611,12 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
 }
 
 .navbar-nav #home-nav {
-  left:  -2%;  
+  left:  -4%;  
   Font-size: calc(0.45rem + 2.5vmin);
 }
 
 .navbar-nav #res-nav {
-      top: 235%; 
+      top: 250%; 
       left: 70%;
        Font-size: calc(0.45rem + 2.5vmin);
 }
