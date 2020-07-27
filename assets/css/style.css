@@ -90,6 +90,9 @@ div.transbox a {
 	background-repeat: no-repeat no-repeat;
 	background-size: cover;
 }
+#background-index{
+    background-image: linear-gradient( rgb(255, 33, 42),#F4F5F0);
+}
 
 #img-hero {
 	display: block;
@@ -129,6 +132,7 @@ p {
 
 #footer {
 	background-color: #F4F5F0;
+    padding-top: 25px;
 }
 
 .p-footer {
