@@ -58,29 +58,7 @@ header {
 	color: green;
 }
 
-div.transbox {
-	margin-bottom: 30rem;
-	background-color: #ffffff;
-	border: 1px solid black;
-	opacity: 0.6;
-	filter: alpha(opacity=60);
-}
 
-div.transbox h3 {
-	margin: 5%;
-	font-weight: bold;
-	color: black;
-}
-
-div.transbox a {
-	margin: 5%;
-	font-weight: bold;
-}
-
-.colcar {
-	color: green;
-	font-weight: bold;
-}
 .row {
 
 margin-right: 0px;
@@ -122,6 +100,32 @@ p {
     padding: 5px;
     position: relative;
     bottom: 20px;
+    background-color: rgb(255, 33, 42);
+}
+
+div.transbox {
+	margin-bottom: 30rem;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=90);
+}
+
+div.transbox h3 {
+	margin: 5%;
+	font-weight: bold;
+	color: black;
+}
+
+div.transbox a {
+
+	font-weight: bold;
+  
+}
+
+.colcar {
+	color: green;
+	font-weight: bold;
 }
 
 /*--------------------------------animation icon in the middle of the header*/
