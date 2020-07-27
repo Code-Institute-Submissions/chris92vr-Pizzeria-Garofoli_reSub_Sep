@@ -277,6 +277,17 @@ input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type
 
 
 /*         ---------media screen header*/
+@media screen and (max-width:765px) {
+
+.navbar{
+   
+ 
+   Font-size: calc(0.22rem + 1.5vmin);
+ 
+}
+}
+
+
 
 @media screen and (max-width:575px) {
 
