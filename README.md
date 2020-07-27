@@ -64,7 +64,7 @@ In the future, I would like to implement the gallery by adding interactivity wit
 Several tests were carried out to verify the correct functioning of the project with positive results.
 The functionality of the site is optimal. Any link and button is active and leads to the corresponding destination.
 Browser compatibility is verified for Firefox, Chrome and Edge. The responsiveness of the pages is suitable on desktop screens, tablets and mobile phones.
-in the folder projectdocumentation/screenshots, there are screenshots that show browser compatibility and responsiveness tests.
+in the folder [projectdocumentation/screenshots](https://github.com/chris92vr/Pizzeria-Garofoli/tree/master/projectdocumentation/screenshots), there are screenshots that show browser compatibility and responsiveness tests.
    
     • HTML Validation: https://validator.w3.org/ - no errors identified.
     • CSS Validation: https://jigsaw.w3.org/css-validator/ - Identified issues with bootstrap not with my project. 
@@ -82,10 +82,10 @@ If instead you would to deploy a live version of this site, you'll need to creat
 
 ### Code
 
--the shaded effect of the text box in the carousel I took inspiration from the following link:
- http://www.w3bai.com/it/css/css_image_transparency.html
+   - The shaded effect of the text box in the carousel I took inspiration from the following link:
+     http://www.w3bai.com/it/css/css_image_transparency.html
 
 ### Images 
-   - Images supplied by Pixbay, Upsplash, Pexels. The icon in the center of the header I have integrated it for free from http://icon8.com
+   - Images supplied by Pixbay, Upsplash, Pexels. The icon in the center of the header I have integrated it for free from http://icons8.com
 
-   Development time 20 days. 
+Development time 20 days. 
