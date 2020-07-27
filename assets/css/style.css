@@ -291,7 +291,12 @@ input[type=time]:hover {
 
 
 /*         ---------media screen header*/
+@media screen and (max-width:1040px) {
+	div.transbox {
+	margin-bottom: 10rem;
+}
 
+}
 @media screen and (max-width:765px) {
 	.navbar {
 		Font-size: calc(0.22rem + 1.5vmin);
@@ -307,5 +312,12 @@ input[type=time]:hover {
 
 
 	}
+    div.transbox {
+	margin-bottom: 0.1rem;
+}
+.button-carousel{
+    
+    bottom: 10px;
+}
 }
 
