@@ -54,12 +54,12 @@ header {
         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 33, 42)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 #carousel-example-2 {
-	padding-bottom: 120px;
+	padding-bottom: 10rem;
 	color: green;
 }
 
 div.transbox {
-	margin: 30px;
+	margin-bottom: 30rem;
 	background-color: #ffffff;
 	border: 1px solid black;
 	opacity: 0.6;
@@ -118,7 +118,11 @@ p {
 #imgOld {
 	filter: grayscale(100%);
 }
-
+.button-carousel{
+    padding: 5px;
+    position: relative;
+    bottom: 20px;
+}
 
 /*--------------------------------animation icon in the middle of the header*/
 
