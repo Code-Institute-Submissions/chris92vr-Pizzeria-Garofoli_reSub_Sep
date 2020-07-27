@@ -264,10 +264,6 @@ select {
 
 /*--------------hover*/
 
-.list-inline-item {
-	text-shadow: 2px 2px 4px whitesmoke, -2px -2px 4px whitesmoke;
-	text-decoration: none;
-}
 
 a:hover {
 	color: lightgray;
@@ -293,6 +289,14 @@ input[type=time]:hover {
 	border-radius: 3px;
 }
 
+
+ .nav-item.active,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(0, 140, 69);
+}
+.navbar-brand:hover, #reservation:hover{
+    color: rgb(0, 140, 69);
+}
 
 /*         ---------media screen header*/
 @media screen and (max-width:1040px) {
