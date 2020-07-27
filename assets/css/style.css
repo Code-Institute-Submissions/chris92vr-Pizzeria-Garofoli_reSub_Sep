@@ -6,9 +6,10 @@
 	background-color: rgb(0, 140, 69);
 	font-family: Lato, sans-serif;
 	letter-spacing: 5px;
-	height: 150px;
+	height: 60px;
 	left: 0px;
 	max-width: 33%;
+    border: 1px solid black;
 }
 
 .logo h2 {
@@ -22,27 +23,36 @@ a {
 
 .logo2 {
 	background-color: #F4F5F0;
-	height: 150px;
+	height: 60px;
 	max-width: 33%;
+    border: 1px solid black;
 }
 
 .logo1 {
 	background-color: rgb(255, 33, 42);
-	height: 150px;
+	height: 60px;
 	text-align: left;
 	max-width: 33%;
+    border: 1px solid black;
 }
 
 header {
 	border: 1px solid black;
 }
 
-.navbar {
-	font-family: Lato, sans-serif;
-	Font-size: calc(0.3rem + 2vmin);
-	font-weight: bold;
+.navbar
+{
+      
+      background-color: #F4F5F0;
+      
 }
 
+.btn-danger{
+    background-color: rgb(255, 33, 42);
+}
+.navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 33, 42)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 #carousel-example-2 {
 	padding-bottom: 120px;
 	color: green;
@@ -85,6 +95,8 @@ div.transbox a {
 	display: block;
 	margin: 0px auto;
 	text-align: center;
+    height: 2.5rem;
+    margin-top: 4px;
 	animation-name: pizza-zoom;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
@@ -95,12 +107,6 @@ p {
 	letter-spacing: 3px;
 }
 
-.description {
-	font-size: 22px;
-	color: red;
-	margin-left: 100px;
-	margin-bottom: 30px;
-}
 
 #imgOld {
 	filter: grayscale(100%);
@@ -247,11 +253,6 @@ select {
 a:hover {
 	color: lightgray;
 	text-decoration: none;
-}
-
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-	color: lightgray;
 }
 
 .img-gallery:hover {
