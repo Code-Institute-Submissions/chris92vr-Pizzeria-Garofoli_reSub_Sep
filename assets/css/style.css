@@ -1,305 +1,295 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Tangerine:wght@400;700&display=swap");
+
 /*--------------------------------heading*/
 
-.logo{
-    background-color: rgb(0,140,69);
-    font-family: Lato, sans-serif;
-    letter-spacing: 5px;
-     height: 150px;
-    left: 0px;
-    max-width: 33%; 
+.logo {
+	background-color: rgb(0, 140, 69);
+	font-family: Lato, sans-serif;
+	letter-spacing: 5px;
+	height: 150px;
+	left: 0px;
+	max-width: 33%;
 }
 
-
-.logo h2{
-    font-size: 2em;   
-    margin-top: 13px;
-     
+.logo h2 {
+	font-size: 2em;
+	margin-top: 13px;
 }
 
-a{
-    color: black;
-
+a {
+	color: black;
 }
 
-.logo2{
-    background-color:#F4F5F0;
-    height: 150px;
-    max-width: 33%;  
+.logo2 {
+	background-color: #F4F5F0;
+	height: 150px;
+	max-width: 33%;
 }
 
-.logo1{
-     background-color: rgb(255,33,42);
-      height: 150px;
-     text-align: left;
-     max-width: 33%;      
+.logo1 {
+	background-color: rgb(255, 33, 42);
+	height: 150px;
+	text-align: left;
+	max-width: 33%;
 }
 
-header{
-    border:1px solid black;
-}
-.navbar{
-    font-family: Lato, sans-serif;
-   Font-size: calc(0.3rem + 2vmin);
-   font-weight: bold;
- 
+header {
+	border: 1px solid black;
 }
 
-#carousel-example-2{
-    padding-bottom: 120px;
-   color: green;
-    
+.navbar {
+	font-family: Lato, sans-serif;
+	Font-size: calc(0.3rem + 2vmin);
+	font-weight: bold;
 }
+
+#carousel-example-2 {
+	padding-bottom: 120px;
+	color: green;
+}
+
 div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); 
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
 }
 
 div.transbox h3 {
-    margin: 5%;
-    font-weight: bold;
-    color: black;
-} 
+	margin: 5%;
+	font-weight: bold;
+	color: black;
+}
+
 div.transbox a {
-    margin: 5%;
-    font-weight: bold;
-   
-} 
-.colcar{
-     color: green;
-     font-weight: bold;
+	margin: 5%;
+	font-weight: bold;
+}
+
+.colcar {
+	color: green;
+	font-weight: bold;
 }
 
 
 /*--------------------------------section index.html*/
-#back-image{
-    background: url("../img/back-index.jpg");
-    background-repeat: no-repeat no-repeat;
-    background-size: cover;
+
+#back-image {
+	background: url("../img/back-index.jpg");
+	background-repeat: no-repeat no-repeat;
+	background-size: cover;
 }
 
-
-#img-hero{
-    display:block;
-    margin:0px auto;
-  
-    text-align:center;
-    
-    animation-name: pizza-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+#img-hero {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+	animation-name: pizza-zoom;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
 }
 
 p {
-font-family: Lato, san-serif;
-letter-spacing: 3px;
+	font-family: Lato, san-serif;
+	letter-spacing: 3px;
 }
 
-.description{
-    font-size: 22px;
-    color: red;
-    margin-left: 100px;
-    margin-bottom:30px;
+.description {
+	font-size: 22px;
+	color: red;
+	margin-left: 100px;
+	margin-bottom: 30px;
 }
 
-
-
-
-
-
-#imgOld{
-    filter: grayscale(100%);
+#imgOld {
+	filter: grayscale(100%);
 }
-
-
 
 
 /*--------------------------------animation icon in the middle of the header*/
 
 @keyframes pizza-zoom {
-    from{
-        transform: scale(0.5);
-    }
-    to{
-        transform: scale(1);
-    }
+	from {
+		transform: scale(0.5);
+	}
+	to {
+		transform: scale(1);
+	}
 }
 
 
 /*---------------------------------footer*/
-#footer{
-     background-color:#F4F5F0;
+
+#footer {
+	background-color: #F4F5F0;
 }
-.p-footer{
-    max-width: 200px;
+
+.p-footer {
+	max-width: 200px;
 }
+
+
 /*---------------------------------Reservation*/
 
-
-input[type=text], input[type=email] {
-  width: 80%;
-  background-color: transparent;
-  margin-left:45px;
-  border: 1px solid black;
-  border-radius: 4px;
+input[type=text],
+input[type=email] {
+	width: 80%;
+	background-color: transparent;
+	margin-left: 45px;
+	border: 1px solid black;
+	border-radius: 4px;
 }
 
-label{
-    margin-left:45px;
+label {
+	margin-left: 45px;
 }
 
-
-input[type=time],input[type=date], select, #InputNote, #inputChildren, #inputAdult{
-  background-color: transparent;
-  border-radius: 4px;
-  margin-left:45px;
-    border: 1px solid black;
+input[type=time],
+input[type=date],
+select,
+#InputNote,
+#inputChildren,
+#inputAdult {
+	background-color: transparent;
+	border-radius: 4px;
+	margin-left: 45px;
+	border: 1px solid black;
 }
 
-input[type=time]{
-    width:45%;
-    margin-left:45px;
-      border: 1px solid black;
-}
-input[type=date]{
-    width:75%;
-    margin-left:45px;
-      border: 1px solid black;
+input[type=time] {
+	width: 45%;
+	margin-left: 45px;
+	border: 1px solid black;
 }
 
-select{
-    max-width:30%;
+input[type=date] {
+	width: 75%;
+	margin-left: 45px;
+	border: 1px solid black;
 }
 
-#InputNote{
-    max-width:75%;
-    margin-left:45px;
-      border: 1px solid black;
+select {
+	max-width: 30%;
 }
 
-
-#descr-res{
-    text-align: center;
-    font-family: Lato, sans-serif;
-    font-size: 2.5em;
-    color:black;    
-    padding-top:40px;
-    padding-bottom:30px;
+#InputNote {
+	max-width: 75%;
+	margin-left: 45px;
+	border: 1px solid black;
 }
 
-#form-section{
-    background: url("../img//back-res.jpg");
-    background-repeat: no-repeat no-repeat;
-    background-size: cover;
-    padding-bottom: 300px;
+#descr-res {
+	text-align: center;
+	font-family: Lato, sans-serif;
+	font-size: 2.5em;
+	color: black;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
-.btnRes{
-    position: relative;
-    left: 48px;
-    margin-top: 20px;
+#form-section {
+	background: url("../img//back-res.jpg");
+	background-repeat: no-repeat no-repeat;
+	background-size: cover;
+	padding-bottom: 300px;
 }
 
-.name-form{
-    margin-top: 20px;
+.btnRes {
+	position: relative;
+	left: 48px;
+	margin-top: 20px;
 }
 
-.reservation-form{
-     margin: 0 auto;
-     background-color: rgba(248, 246, 246, 0.85);
-     border-radius: 5px;
-     max-width: 450px;
-     box-shadow: 5px 5px 15px 4px #999;
-     padding-bottom: 180px;
-}  
+.name-form {
+	margin-top: 20px;
+}
+
+.reservation-form {
+	margin: 0 auto;
+	background-color: rgba(248, 246, 246, 0.85);
+	border-radius: 5px;
+	max-width: 450px;
+	box-shadow: 5px 5px 15px 4px #999;
+	padding-bottom: 180px;
+}
+
 
 /*---------------------------------gallery*/
 
-#gallery{
-    padding-top:30px;
-    font-family: Lato, sans-serif;
-    padding-left: 80px;
-    letter-spacing: 3px;
-    font-size: 2.5em;
-    text-align: center;
-    font-weight: bold;
+#gallery {
+	padding-top: 30px;
+	font-family: Lato, sans-serif;
+	padding-left: 80px;
+	letter-spacing: 3px;
+	font-size: 2.5em;
+	text-align: center;
+	font-weight: bold;
 }
 
-.gallery-container{
-    margin:80px 10px 0 10px;
+.gallery-container {
+	margin: 80px 10px 0 10px;
 }
 
-.img-gallery{
-    border-radius: 10%;
-    box-shadow: 5px 5px 15px 4px #999;
+.img-gallery {
+	border-radius: 10%;
+	box-shadow: 5px 5px 15px 4px #999;
 }
+
 
 /*--------------hover*/
 
 .list-inline-item {
-    text-shadow:   2px  2px 4px whitesmoke,
-                -2px -2px 4px whitesmoke;
-    text-decoration: none;
+	text-shadow: 2px 2px 4px whitesmoke, -2px -2px 4px whitesmoke;
+	text-decoration: none;
 }
 
-
-a:hover{
-    color:lightgray;
-    
-    text-decoration: none;
+a:hover {
+	color: lightgray;
+	text-decoration: none;
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: lightgray;
+	color: lightgray;
 }
 
-
-.img-gallery:hover{
-    
-    box-shadow: 5px 5px 15px 4px whitesmoke;
-
+.img-gallery:hover {
+	box-shadow: 5px 5px 15px 4px whitesmoke;
 }
 
-input[type=text]:hover,input[type=email]:hover,input[type=date]:hover,input[type=time]:hover{
-    border: 1px solid whitesmoke;
-  border-radius: 3px;
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=date]:hover,
+input[type=time]:hover {
+	border: 1px solid whitesmoke;
+	border-radius: 3px;
 }
 
-#inputAdult:hover, #inputChildren:hover, #InputNote:hover{
-    border: 1px solid whitesmoke;
-  border-radius: 3px;
+#inputAdult:hover,
+#inputChildren:hover,
+#InputNote:hover {
+	border: 1px solid whitesmoke;
+	border-radius: 3px;
 }
-
 
 
 /*         ---------media screen header*/
+
 @media screen and (max-width:765px) {
-
-.navbar{
-   
- 
-   Font-size: calc(0.22rem + 1.5vmin);
- 
+	.navbar {
+		Font-size: calc(0.22rem + 1.5vmin);
+	}
 }
-}
-
-
 
 @media screen and (max-width:575px) {
+	.navbar {
+		Font-size: calc(0.22rem + 1.5vmin);
+	}
+	.logo h2 {
+		font-size: 1.5em;
 
-.navbar{
-   
- 
-   Font-size: calc(0.22rem + 1.5vmin);
- 
-}
-.logo h2{
-    font-size: 1.5em;   
-     
-}
+
+	}
 }
 
