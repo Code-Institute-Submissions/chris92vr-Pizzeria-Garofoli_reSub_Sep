@@ -47,42 +47,68 @@
     </header>
     <div id="back-image">
 
-    <!----                  hero image with button for make a reservation-->
-    <section>
-         <div class="hero-image">
-         <div class="hero-text">
-         <h2 id="title-section"><b>Traditional Italian Pizza</b>
-         </h2>
-         <p>Quality ingredients, professional service, make our Pizzeria a unique place!</p>
+    <!--Bootstrap Carousel -->
+
+    <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+  
+  <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="assets/img/pizza1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-caption">
+        <div class="transbox">
+        <h3 class="colcar h3-responsive">Come and try the authentic traditional Italian pizza!</h3>
+        <a href="reservation.html" class="btn-danger">Reserve a table!</a>
+        </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+    <div class="view">
+        <img class="d-block w-100 " src="assets/img/restaurant.jpg"
+          alt="Second slide">
+    </div>
+    <div class="carousel-caption">
+      
+        <!--opaque text area for reading description text and button for reserving a table-->
+        <div class="transbox">
+         <h3 class="colcar">Quality ingredients, professional service, make our Pizzeria a unique place!</h3>
          <a href="reservation.html" class="btn-danger">Reserve a table!</a>
         </div>
-        </div> 
-    </section>
-    <section class="container">
-        <a href="reservation.html" id="btn-up" class="btn-danger">Reserve a table!</a>
-        <img src="img/pizza1.jpg"  class="pizza1" alt="pizzeria-garofoli">
-        <div class="text-block">
-        <p><b>Come and try the authentic traditional Italian pizza!
-        </b></p>
         </div>
-    </section> 
-    <section class="container">
-        <img src="img/image-down.jpg"  class="image-down" alt="pizzeria-garofoli">
-        <a href="reservation.html" class="btn-danger" id="btn-down">Reserve a table!</a>
-        <div class="text-block1">
-        <p><b>Every day our menus boast a variety of traditional Italian dishes built around the classic recipes and a fresh ingredients selection
-        </b></p>
         </div>
-    </section> 
-    <section class="container">
-        <img src="img/img-family.jpg"  class="image-family" alt="pizzeria-garofoli">
-     <a href="reservation.html" id="btn-family" class="btn-danger">Reserve a table!</a>
-    <div class="text-block2">
-    <p><b>The Garofoli family has been in business for over 50 years!
-    </b></p>
+        <div class="carousel-item">
+        <div class="view">
+            <img id="imgOld" class="d-block w-100" src="assets/img/img-family.jpg"
+            alt="Third slide">
+        </div>
+        <div class="carousel-caption">
+        <div class="transbox">
+            <h3 class="h3-responsive colcar">The Garofoli family has been in business for over 50 years!</h3>
+            <a href="reservation.html" class="btn-danger">Reserve a table!</a>
+        </div>
+        </div>
+        </div>
     </div>
-    </section>
-    </div>           
+
+<!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>     
     <!-- Footer -->
 
 	<section id="footer">
