@@ -8,7 +8,7 @@
 	letter-spacing: 5px;
 	height: 60px;
 	left: 0px;
-	max-width: 33%;
+	max-width: 33.33%;
     border: 1px solid black;
 }
 
@@ -24,7 +24,7 @@ a {
 .logo2 {
 	background-color: #F4F5F0;
 	height: 60px;
-	max-width: 33%;
+	max-width: 33.33%;
     border: 1px solid black;
 }
 
@@ -32,7 +32,7 @@ a {
 	background-color: rgb(255, 33, 42);
 	height: 60px;
 	text-align: left;
-	max-width: 33%;
+	max-width: 33.33%;
     border: 1px solid black;
 }
 
@@ -81,7 +81,11 @@ div.transbox a {
 	color: green;
 	font-weight: bold;
 }
+.row {
 
+margin-right: 0px;
+margin-left: 0px;
+}
 
 /*--------------------------------section index.html*/
 
