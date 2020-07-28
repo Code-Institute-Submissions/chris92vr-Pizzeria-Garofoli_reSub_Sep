@@ -147,9 +147,6 @@ div.transbox a {
     padding-top: 25px;
 }
 
-.p-footer {
-	
-}
 
 
 /*---------------------------------Reservation*/
@@ -181,13 +178,13 @@ select,
 }
 
 input[type=time] {
-	width: 10rem;
+	width: 13rem;
 	margin-left: 45px;
 	border: 1px solid black;
 }
 
 input[type=date] {
-	width: 10rem;
+	width: 13rem;
 	margin-left: 45px;
 	border: 1px solid black;
 }
