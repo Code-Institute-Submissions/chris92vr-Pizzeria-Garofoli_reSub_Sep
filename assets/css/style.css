@@ -40,10 +40,6 @@ header {
 	border: 1px solid black;
 }
 
-.navbar {
-	background-color: linear-gradient(#F4F5F0, rgba(255, 255, 255));
-}
-
 #reservation {
 	color: rgb(255, 33, 42);
 }
@@ -184,7 +180,7 @@ select {
 }
 
 #input-note {
-	max-width: 75%;
+	width: 20rem;
 	margin-left: 45px;
 	border: 1px solid black;
 }
@@ -262,6 +258,7 @@ a:hover {
 
 input[type=text]:hover,
 input[type=email]:hover,
+input[type=tel]:hover,
 input[type=date]:hover,
 input[type=time]:hover {
 	border: 1px solid whitesmoke;
