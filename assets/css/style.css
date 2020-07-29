@@ -115,7 +115,9 @@ div.transbox h3 {
 div.transbox a {
 	font-weight: bold;
 }
-
+#image-old{
+    filter: grayscale(70);
+}
 
 /*--------------------------------animation icon in the middle of the header*/
 
