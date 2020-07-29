@@ -76,7 +76,7 @@ margin-left: 0px;
     background-image: linear-gradient( rgb(255, 33, 42),#F4F5F0);
 }
 
-#img-hero {
+#image-header {
 	display: block;
 	margin: 0px auto;
 	text-align: center;
@@ -93,9 +93,6 @@ p {
 }
 
 
-#imgOld {
-	filter: grayscale(100%);
-}
 .button-carousel{
     padding: 5px;
     position: relative;
@@ -123,10 +120,6 @@ div.transbox a {
   
 }
 
-.colcar {
-	color: green;
-	font-weight: bold;
-}
 
 /*--------------------------------animation icon in the middle of the header*/
 
@@ -168,9 +161,9 @@ label {
 input[type=time],
 input[type=date],
 select,
-#InputNote,
-#inputChildren,
-#inputAdult {
+#input-note,
+#input-children,
+#input-adult {
 	background-color: transparent;
 	border-radius: 4px;
 	margin-left: 45px;
@@ -193,7 +186,7 @@ select {
 	max-width: 30%;
 }
 
-#InputNote {
+#input-note {
 	max-width: 75%;
 	margin-left: 45px;
 	border: 1px solid black;
@@ -215,7 +208,7 @@ select {
 	padding-bottom: 300px;
 }
 
-.btnRes {
+.reservation-button {
 	position: relative;
 	left: 48px;
 	margin-top: 20px;
@@ -279,9 +272,9 @@ input[type=time]:hover {
 	border-radius: 3px;
 }
 
-#inputAdult:hover,
-#inputChildren:hover,
-#InputNote:hover {
+#input-adult:hover,
+#input-children:hover,
+#input-note:hover {
 	border: 1px solid whitesmoke;
 	border-radius: 3px;
 }
@@ -302,21 +295,9 @@ input[type=time]:hover {
 }
 
 }
-@media screen and (max-width:765px) {
-	.navbar {
-		Font-size: calc(0.22rem + 1.5vmin);
-	}
-}
 
 @media screen and (max-width:575px) {
-	.navbar {
-		Font-size: calc(0.22rem + 1.5vmin);
-	}
-	.logo h2 {
-		font-size: 1.5em;
 
-
-	}
     div.transbox {
 	margin-bottom: 0.1rem;
 }
