@@ -28,6 +28,26 @@ A demo of this site is available [here](https://chris92vr.github.io/Pizzeria-Gar
 
 * As a possible customer I would like to be able to find information about the address.
 
+### Design and colors:
+
+#### Fonts:
+
+I used Lato, from Google Fonts.
+
+
+#### Colors:
+
+* ![#008c45](https://placehold.it/15/008c45/000000?text=+) rgb(0, 140, 69) - part of the italian flag on the header
+
+* ![#F2F4F5](https://placehold.it/15/F2F4F5/000000?text=+) rgb(244,245,240) - part of the italian flag on the header
+
+* ![#ff212a](https://placehold.it/15/ff212a/000000?text=+) rgb(255,33,42) - part of the italian flag on the header
+
+* ![#000000](https://placehold.it/15/000000/000000?text=+) black - all the text
+
+
+
+
 This website is designed for people who want information about the pizzeria and in the event the possibility of being able to reserve a table. 
 My goal in the design was to recall the italian tradition to be able to easily access the basic contact information of the restaurant.
 The main purpose of the site is to provide users with the presentation of the pizzeria in order to obtain new possible customers.
@@ -90,15 +110,17 @@ In the future, I would like to implement the gallery by adding interactivity wit
 Several tests were carried out to verify the correct functioning of the project with positive results.
 The functionality of the site is optimal. Any link and button is active and leads to the corresponding destination.
 Browser compatibility is verified for Firefox, Chrome and Edge. The responsiveness of the pages is suitable on desktop screens, tablets and mobile phones.
-in the folder [projectdocumentation/screenshots](https://github.com/chris92vr/Pizzeria-Garofoli/tree/master/projectdocumentation/screenshots), there are screenshots that show browser compatibility and responsiveness tests.
+In the folder [projectdocumentation/screenshots](https://github.com/chris92vr/Pizzeria-Garofoli/tree/master/projectdocumentation/screenshots), there are screenshots that show browser compatibility and responsiveness tests.
+
 
 In order to to check the validity of the website code, I have used the following:
-    • HTML Validation: https://validator.w3.org/ - no errors identified.
-    • CSS Validation: https://jigsaw.w3.org/css-validator/ - Identified issues with bootstrap not with my project. 
+
+    - HTML Validation: https://validator.w3.org/ - no errors identified.
+    - CSS Validation: https://jigsaw.w3.org/css-validator/ - Identified issues with bootstrap not with my project. 
 
 #### Functionality Test
-Test Description | Expected Outcome | Pass/Fail
- 
+|Test Description | Expected Outcome | Pass/Fail
+| ---|:-----------------------------------------:| :---: | 
 | interact with the navbar | each element (home, gallery, reserve a table!) must lead to the corresponding page| pass
 | carousel buttons         | the right and the left controls work as expected                                  | pass
 | hover effect | hover effect on navbar, social link and reservation form works | pass
