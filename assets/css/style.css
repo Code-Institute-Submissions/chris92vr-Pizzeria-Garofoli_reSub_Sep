@@ -1,3 +1,5 @@
+
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Tangerine:wght@400;700&display=swap");
 
 /*--------------------------------heading*/
@@ -111,9 +113,11 @@ div.transbox h3 {
 div.transbox a {
 	font-weight: bold;
 }
-#image-old{
-    filter: grayscale(70);
+
+#image-old {
+	filter: grayscale(70);
 }
+
 
 /*--------------------------------animation icon in the middle of the header*/
 
@@ -216,7 +220,7 @@ select {
 	margin: 0 auto;
 	background-color: rgba(248, 246, 246, 0.85);
 	border-radius: 5px;
-	max-width: 450px;
+	max-width: 28.125rem;
 	box-shadow: 5px 5px 15px 4px #999;
 	padding-bottom: 180px;
 	font-weight: bold;
@@ -299,3 +303,41 @@ input[type=time]:hover {
 		bottom: 10px;
 	}
 }
+
+@media screen and (max-width:490px) {
+	.reservation-form {
+		max-width: 400px;
+		box-shadow: 5px 5px 15px 4px #999;
+		padding-bottom: 180px;
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width:430px) {
+	.reservation-form {
+		max-width: 23rem;
+	}
+}
+
+@media screen and (max-width:390px) {
+	div.transbox h3 {
+		font-size: 1em;
+	}
+	.button-carousel {
+		font-size: 0.70em;
+	}
+	.reservation-form {
+		max-width: 19rem;
+	}
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	#input-note {
+		width: 15rem;
+		background-color: transparent;
+		margin-left: 45px;
+		border: 1px solid black;
+		border-radius: 4px;
+	}
+}
+
