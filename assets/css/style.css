@@ -1,5 +1,3 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Tangerine:wght@400;700&display=swap");
 
 /*--------------------------------heading*/
@@ -180,7 +178,7 @@ input[type=date] {
 }
 
 select {
-	max-width: 30%;
+	max-width: 4rem;
 }
 
 #input-note {
@@ -306,10 +304,13 @@ input[type=time]:hover {
 
 @media screen and (max-width:490px) {
 	.reservation-form {
-		max-width: 400px;
-		box-shadow: 5px 5px 15px 4px #999;
-		padding-bottom: 180px;
-		font-weight: bold;
+		max-width: 24rem;
+	}
+	input[type=text],
+	input[type=email],
+	input[type=tel],
+	#input-note {
+		width: 17rem;
 	}
 }
 
@@ -334,10 +335,5 @@ input[type=time]:hover {
 	input[type=tel],
 	#input-note {
 		width: 15rem;
-		background-color: transparent;
-		margin-left: 45px;
-		border: 1px solid black;
-		border-radius: 4px;
 	}
 }
-
