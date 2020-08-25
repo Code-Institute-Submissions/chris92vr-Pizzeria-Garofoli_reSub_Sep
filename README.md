@@ -45,19 +45,23 @@ I used Lato, from Google Fonts.
 
 * ![#000000](https://placehold.it/15/000000/000000?text=+) black - all the text
 
+### Strategy
 
+My goal in the design was to recall the italian tradition to be able to easily access the basic contact information of the restaurant.
 
+### Scope
 
 This website is designed for people who want information about the pizzeria and in the event the possibility of being able to reserve a table. 
-My goal in the design was to recall the italian tradition to be able to easily access the basic contact information of the restaurant.
 The main purpose of the site is to provide users with the presentation of the pizzeria in order to obtain new possible customers.
 
 ## Features
+
 Each page features a responsive header divided into three, colored to look like the Italian flag. In the center an icon which recalls catering.
 Under the flag there is a simple responsive navbar with the navigation elements on the right and the name of the pizzeria on the left.
 Each page has a footer with contact information and social media icons.
 
 ##### Homepage
+
 Contains a bootstrap carousel showing the interior view of the restaurant, with a description and a button to reserve a table.  
 
 ##### Reservation
@@ -79,6 +83,7 @@ Contains grouped images sorted by using the bootstrap row class.
 In the future, I would like to implement the gallery by adding interactivity with javascript.
 
 ### Skeleton
+
 [Index wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/index.jpg)
 
 [Gallery wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/gallery.jpg)
