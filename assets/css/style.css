@@ -92,7 +92,6 @@ p {
 
 div.transbox {
 	margin-bottom: 30rem;
-    margin-left:17rem;
 	background-color: #ffffff;
 	border: 1px solid black;
 	opacity: 0.8;
@@ -112,7 +111,6 @@ div.transbox a {
 #image-old {
 	filter: grayscale(70);
 }
-
 
 /*--------------------------------animation icon in the middle of the header*/
 
@@ -291,12 +289,15 @@ input[type=time]:hover {
 @media screen and (max-width:1040px) {
 	div.transbox {
 		margin-bottom: 10rem;
+        right: 7rem;
+     
 	}
 }
 
 @media screen and (max-width:575px) {
 	div.transbox {
 		margin-bottom: 0.1rem;
+        
 	}
 	.button-carousel {
 		bottom: 10px;
