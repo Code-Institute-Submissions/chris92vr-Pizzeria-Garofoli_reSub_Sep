@@ -321,15 +321,16 @@ input[type=time]:hover {
 	.reservation-form {
 		max-width: 23rem;
 	}
-}
-
-@media screen and (max-width:390px) {
-	div.transbox h3 {
+    div.transbox h3 {
 		font-size: 1em;
 	}
 	.button-carousel {
 		font-size: 0.70em;
 	}
+}
+
+@media screen and (max-width:390px) {
+	
 	.reservation-form {
 		max-width: 19rem;
 	}
