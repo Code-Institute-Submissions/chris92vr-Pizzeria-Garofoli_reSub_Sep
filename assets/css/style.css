@@ -55,11 +55,12 @@ header {
 
 
 /*--------------------------------section index.html*/
+
 #carousel-index {
 	padding-bottom: 10rem;
 }
 
-.carousel-indicators{
+.carousel-indicators {
 	padding-bottom: 10rem;
 }
 
@@ -111,6 +112,7 @@ div.transbox a {
 #image-old {
 	filter: grayscale(70);
 }
+
 
 /*--------------------------------animation icon in the middle of the header*/
 
@@ -183,12 +185,12 @@ select {
 }
 
 #descr-res {
-	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 60px;
 	font-family: Lato, sans-serif;
 	font-size: 2.5em;
-	color: black;
-	padding-top: 40px;
-	padding-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
 }
 
 #form-section {
@@ -221,6 +223,7 @@ select {
 
 
 /*---------------------------------gallery*/
+
 #background-image {
 	background: url("../img/background-gallery.jpg");
 	background-repeat: no-repeat no-repeat;
@@ -289,15 +292,13 @@ input[type=time]:hover {
 @media screen and (max-width:1040px) {
 	div.transbox {
 		margin-bottom: 10rem;
-        right: 7rem;
-     
+		right: 7rem;
 	}
 }
 
 @media screen and (max-width:575px) {
 	div.transbox {
 		margin-bottom: 0.1rem;
-        
 	}
 	.button-carousel {
 		bottom: 10px;
@@ -339,3 +340,4 @@ input[type=time]:hover {
 		width: 15rem;
 	}
 }
+
