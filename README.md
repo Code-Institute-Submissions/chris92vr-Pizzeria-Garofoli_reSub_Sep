@@ -84,38 +84,42 @@ In the future, I would like to implement the gallery by adding interactivity wit
 
 ### Skeleton
 
-[Index wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/index.jpg)
+Wireframe of how I conceived the design of the project initially, made thanks to Balsamiq.
 
-[Gallery wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/gallery.jpg)
+[Index wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframes/index%20-%20wireframe.png)
 
-[Reservation Page wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/reservation.jpg)
+[Gallery wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframes/gallery%20-wireframe.png)
 
-[Index-mobile wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/index-mobile.jpg)
+[Reservation Page wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentations/wireframes/reservation%20-%20wireframe.png)
 
-[Gallery-mobile wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/gallery-mobile.jpg)
+[Index-mobile wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframes/index%20-%20mobile%20-%20wireframe.png)
 
-[Reservation-mobile wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframe/reservation-mobile.jpg)
+[Gallery-mobile wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframes/gallery%20-%20mobile%20-%20wireframe.png)
+
+[Reservation-mobile wireframe](https://github.com/chris92vr/Pizzeria-Garofoli/blob/master/projectdocumentation/wireframes/reservation%20-%20mobil%20-%20wireframe.png)
 
 
 ## Technologies Used
 
   -  HTML 5
   -  CSS 3
-  -  BootstrapCDN 
-    - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
-    - The project also uses BootstrapCDN to provide icons from FontAwesome(https://www.bootstrapcdn.com/fontawesome/)
-  -  jQuery 
+  -  [BootstrapCDN](https://www.bootstrapcdn.com/)
+        - The project uses Bootstrap4 to simplify the structure of the website and make the website responsive easily.
+        - The project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+  -  [jQuery](https://jquery.com/)
+     - The project uses its to reference Javascript needed for the responsive navbar.
+  - [Popper.js](https://popper.js.org/)
     - The project uses its to reference Javascript needed for the responsive navbar.
-  - Popper.js
-    - The project uses its to reference Javascript needed for the responsive navbar.
-  -  Google Fonts
+  -  [Google Fonts](https://fonts.google.com/)
           
 
 ## Testing
+
 Several tests were carried out to verify the correct functioning of the project with positive results.
 The functionality of the site is optimal. Any link and button is active and leads to the corresponding destination.
-Browser compatibility is verified for Firefox, Chrome and Edge. The responsiveness of the pages is suitable on desktop screens, tablets and mobile phones.
+Browser compatibility is verified for Firefox, Chrome, Edge and Opera on Windows 10 and Ubuntu 19.10 operating systems. The responsiveness of the pages is suitable on desktop screens, tablets and mobile phones.
 In the folder [projectdocumentation/screenshots](https://github.com/chris92vr/Pizzeria-Garofoli/tree/master/projectdocumentation/screenshots), there are screenshots that show browser compatibility and responsiveness tests.
+Named screenshots, in the following format: (screen resolution) - operating system (browser) - page name.
 
 
 In order to to check the validity of the website code, I have used the following:
@@ -127,12 +131,12 @@ In order to to check the validity of the website code, I have used the following
 |Test Description | Expected Outcome | Pass/Fail
 | ---|:-----------------------------------------:| :---: | 
 | interact with the navbar | each element (home, gallery, reserve a table!) must lead to the corresponding page| pass
-| carousel buttons         | the right and the left controls work as expected                                  | pass
+| carousel buttons         | the right, left and indicators controls and "reserve a table!" buttons work as expected                                  | pass
 | hover effect | hover effect on navbar, social link and reservation form works | pass
 | form validation for required fields | the required fields (name, email, telephone, date, time and adult number) must be valid in order to send the form | pass
 | social link | social links work, and open in a background tab | pass
 | header image animation | the image in the center of the flag in the header is enlarged when the page is opened | pass
-
+| responsivity | All pages must be displayed correctly on any screen resolution | pass
 
 ## Deployment  
 
@@ -175,4 +179,4 @@ git clone https://github.com/USERNAME/REPOSITORY
 ### Images 
    - Images supplied by Pixbay, Upsplash, Pexels. The icon in the center of the header I have integrated it for free from http://icons8.com
 
-Development time 20 days. 
+Development time 25 days. 
